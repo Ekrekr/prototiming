@@ -1,11 +1,10 @@
-import * as path from "path";
 import * as pbjs from "protobufjs";
 
 const ITERATIONS = 1000;
 
-const protoPath = path.join(__dirname, "../../protos/theproto.proto");
+const protoPath = "../protos/theproto.proto";
 
-const rootProto: any = pbjs.loadSync(protoPath);
+const rootProto: any = (pbjs as any).default.loadSync(protoPath);
 if (!rootProto) {
   throw new Error(`Could not find proto at ${protoPath}`);
 }
