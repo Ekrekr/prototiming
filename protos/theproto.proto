@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package theproto;
+
+option java_package = "com.theproto.protos";
+option java_outer_classname = "CoreMeta";
+option java_multiple_files = true;
+
+message SomeMessage {
+  string some_string = 1;
+}

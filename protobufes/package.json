@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@bufbuild/buf": "^1.37.0",
+    "@bufbuild/protobuf": "^2.0.0",
+    "@bufbuild/protoc-gen-es": "^2.0.0",
+    "google-protobuf": "^3.21.4"
+  },
+  "name": "prototiming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "protobufjs": "^7.3.3",
+    "typescript": "^5.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "type": "module"
+}
